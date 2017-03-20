@@ -2,18 +2,19 @@ package ch.heigvd.res.stpatrick;
 
 
 /**
- * 
  * @author Olivier Liechti
+ * @author Lucas Elisei (faku99)
  */
 public class Application {
 
-  IStreamProcessorsFactory processorsFactory = new StreamProcessorsFactory();
-  
-  public IStreamProcessorsFactory getStreamProcessorsFactory() {
-    return processorsFactory;
-  }
+    IStreamDecoratorController decoratorController = new StreamDecoratorController();
+    IStreamProcessorsFactory processorsFactory = new StreamProcessorsFactory();
 
-  IStreamDecoratorController getStreamDecoratorController() {
-    return null;
-  }
+    public IStreamProcessorsFactory getStreamProcessorsFactory() {
+        return processorsFactory;
+    }
+
+    IStreamDecoratorController getStreamDecoratorController() {
+        return decoratorController;
+    }
 }
