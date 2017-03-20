@@ -2,6 +2,9 @@ package ch.heigvd.res.stpatrick;
 
 import java.io.*;
 
+/**
+ * @author Lucas Elisei (faku99)
+ */
 public class ERemoverStreamProcessor implements IStreamProcessor {
     private int forbiddenLowerCase = (int)'e';
     private int forbiddenUpperCase = (int)'E';

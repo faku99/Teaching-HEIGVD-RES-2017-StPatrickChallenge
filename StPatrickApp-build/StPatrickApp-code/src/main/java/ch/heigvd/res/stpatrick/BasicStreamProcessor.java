@@ -17,6 +17,7 @@ import java.io.Writer;
  * of this class via the StreamProcessorsFactory.
  *
  * @author Olivier Liechti
+ * @author Lucas Elisei (faku99)
  */
 class BasicStreamProcessor implements IStreamProcessor {
 
