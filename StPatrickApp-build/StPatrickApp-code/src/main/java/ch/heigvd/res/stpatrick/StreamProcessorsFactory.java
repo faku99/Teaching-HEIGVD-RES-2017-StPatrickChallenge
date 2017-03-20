@@ -4,6 +4,7 @@ package ch.heigvd.res.stpatrick;
  * This class is responsible for providing different types of Stream Processors.
  *
  * @author Olivier Liechti
+ * @author Lucas Elisei (faku99)
  */
 public class StreamProcessorsFactory implements IStreamProcessorsFactory {
 
